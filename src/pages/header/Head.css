@@ -1,0 +1,59 @@
+.header{
+    border-bottom: 1px solid #32323D;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.header_line{
+    border-bottom: 1px solid #32323D; 
+    height: 4vh;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: lowercase;
+}
+ul.header_lng{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+li:hover{
+    color: #C7A17A;
+   
+}
+.active{
+    color: #C7A17A;
+}
+
+/* MAIN HEad */
+
+.head_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.6rem;
+}
+
+img.nav_logo {
+    height: 3.4rem;
+    width: 3.5rem;
+}
+
+.header_part_container{
+    width: 45%;
+    text-align: center;
+}
+
+.header_actions{
+    font-size: 2rem;
+}

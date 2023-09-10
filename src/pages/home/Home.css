@@ -1,0 +1,207 @@
+
+#intro{
+    margin-top: 4rem;
+    height: 37rem;
+    width: 100%;
+    background-image: url(../../img/hero_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    position: relative;
+}
+
+.intro_description{
+    margin-left: 3rem;
+    width: 45%;
+    height: 37.6rem;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro_description h1{
+font-size: 2rem;
+}
+.intro_description p{
+font-size: 1.2rem;
+}
+
+.intro_btn_group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.btn_intro{
+    width: 12.5rem;
+    height: 3.1rem;
+    border-radius: 10px;
+    border: 1px solid #666681;
+    background-color: transparent;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0 0 5px #C7A17A;
+    
+}
+
+
+.btn_intro:hover {
+    box-shadow: 0 0 5px #C7A17A, 0 0 25px #C7A17A, 0 0 50px #C7A17A;
+    color: #C7A17A ;
+}
+
+.banner_wrapper {
+    height: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    background-color: #14141D;
+}
+.banner_description{
+    width: 50%;
+    padding: 2rem;
+}
+
+.banner_description h1{
+    font-size: 1.3rem;
+}
+.banner_description p{
+    font-size: 0.75rem;
+}
+
+.product_group{
+margin-top: 4rem;
+width:100%;
+min-height:100vh;
+
+}
+.product_group_li:hover{
+color: white;
+}
+
+.product_list{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap; 
+}
+.product_item{
+    width: 13.5rem;  
+    height: 16.5rem;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #14141D;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: background-color 0.8s ease-out;
+}
+.product_item:hover{
+    background-color: #22222F;
+}
+.product_item img{
+    width: 4rem;
+    height: 7rem;
+}
+
+.price{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discount{
+color: #666681;
+text-decoration: line-through;
+}
+
+.favorite:hover{
+   transform: scale(1.04);
+    color: #C7A17A ;
+}
+
+.news_group{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.new_list{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap; 
+}
+img.news_img{
+    width: 100%;
+    height: 12rem;
+    margin: 0;
+}
+.news_item{
+width: 14.5rem;  
+height: 17.5rem;  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #14141D;
+border-radius: 10px;
+margin-bottom: 1rem;
+transition: background-color 0.8s ease-out;
+}
+
+.news_item p{
+    font-size: 0.65rem;
+}
+
+/* Footer styles */
+
+footer {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .contact-info h3,
+  .social-media h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  
+  .contact-info p {
+    margin: 5px 0;
+    font-size: 0.65rem;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 3rem;
+  }
+  
+  .social-media li {
+    margin-bottom: 5px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #ff9900;
+  }
+  

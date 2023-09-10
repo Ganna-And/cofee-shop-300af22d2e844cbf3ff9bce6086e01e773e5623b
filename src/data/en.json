@@ -1,0 +1,203 @@
+{
+    "components": {
+      "language":{
+        "en": "en",
+        "ua":"ua"
+      },
+      "contacts": "Contacts",
+      "mainNav": [
+         "HOME",
+         "ABOUT",
+         "MENU",
+        "NEWS"
+    ],
+    "intro": {
+     
+        "title": "Roasted coffee best choice",
+        "description": "The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. given an opportunity to sample.",
+        "buttons": [
+          "BUY NOW",
+          "READ MORE"
+        ]
+      },
+
+      "about": {
+        "title": "Roasted Coffee",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+      },
+
+      "menu":{
+        "header": "Catalog",
+       
+          "products": 
+            [
+              {
+                "id": 1,
+                "title": "Classic Roast",
+                "btn_txt":"add to cart",
+                "description": "Enjoy the rich aroma and bold flavor of our Classic Roast coffee. Crafted from the finest coffee beans, this exquisite blend will awaken your senses with every sip. Whether you prefer it black or with a splash of cream, our coffee is a delightful start to your day.",
+                "sizes": [
+                  { "id":"medium",
+                    "size": "M",
+                    "price": "$9.99",
+                    "discount":"$12.05"
+                  },
+                  { "id":"large",
+                    "size": "L",
+                    "price": "$19.99"
+                  },
+                  { "id":"superLarge",
+                    "size": "XL",
+                    "price": "$29.99"
+                  }
+                ],
+                "imgSrc": "img/product1a.png"
+              },
+              {
+                "id": 2,
+                "title": "Caramel Delight",
+                "btn_txt":"add to cart",
+                "description": "Savor the indulgence of our Caramel Delight coffee, a true coffee connoisseur's choice. With its velvety texture and notes of caramel and nuts, this blend offers a harmonious balance of taste and aroma. Elevate your mornings with a cup of this liquid luxury.",
+                "sizes": [
+                  { "id":"medium",
+                    "size": "M",
+                    "price": "$9.99",
+                    "discount":"$12.05"
+                  },
+                  { "id":"large",
+                    "size": "L",
+                    "price": "$19.99"
+                  },
+                  { "id":"superLarge",
+                    "size": "XL",
+                    "price": "$29.99"
+                  }
+                ],
+                "imgSrc": "img/product2 1 (1).png"
+              },
+              {
+                "id": 3,
+                "title": "Espresso Supreme",
+                "btn_txt":"add to cart",
+                "description": "Dive into the world of our Espresso Supreme coffee, where every cup tells a story of passion and craftsmanship. Our premium beans are roasted to perfection, delivering a smooth, full-bodied experience. Allow the rich, earthy tones to transport you to a cozy café on a rainy day.",
+                "sizes": [
+                  { "id":"medium",
+                    "size": "M",
+                    "price": "$9.99",
+                    "discount":"$12.05"
+                  },
+                  { "id":"large",
+                    "size": "L",
+                    "price": "$19.99"
+                  },
+                  { "id":"superLarge",
+                    "size": "XL",
+                    "price": "$29.99"
+                  }
+                ],
+                "imgSrc": "img/espresso_barista-removebg-preview.png"
+              },
+              {
+                "id": 4,
+                "title": "Nutty Bliss",
+                "btn_txt":"add to cart",
+                "description": "Immerse yourself in the essence of our Nutty Bliss coffee, where each sip is a journey of discovery. This exceptional blend combines the warmth of toasted almonds with a hint of dark chocolate, creating a coffee that's as comforting as a hug from an old friend.",
+                "sizes": [
+                  { "id":"medium",
+                    "size": "M",
+                    "price": "$9.99",
+                    "discount":"$12.05"
+                  },
+                  { "id":"large",
+                    "size": "L",
+                    "price": "$19.99"
+                  },
+                  { "id":"superLarge",
+                    "size": "XL",
+                    "price": "$29.99"
+                  }],
+                "imgSrc": "img/crema_aroma-removebg-preview.png"
+              },
+              {
+                "id": 5,
+                "title": "French Vanilla Dream",
+                "btn_txt":"add to cart",
+                "description": "Discover the magic of our French Vanilla Dream coffee, a taste that lingers on your palate like a sweet memory. With its irresistible aroma and velvety mouthfeel, this blend is a symphony of flavors. And for a limited time, enjoy our special discount as a token of our appreciation for your love of coffee.",
+                "sizes": [
+                  { "id":"medium",
+                    "size": "M",
+                    "price": "$9.99",
+                    "discount":"$12.05"
+                  },
+                  { "id":"large",
+                    "size": "L",
+                    "price": "$19.99"
+                  },
+                  { "id":"superLarge",
+                    "size": "XL",
+                    "price": "$29.99"
+                  }
+                ],
+                "imgSrc": "img/delight-removebg-preview.png"
+              },
+              {
+                "id": 6,
+                "title": "Dark Roast",
+                "btn_txt":"add to cart",
+                "description": "Embark on a coffee adventure with our Dark Roast coffee, where every cup is an invitation to explore new horizons. Our carefully selected beans are roasted to perfection, producing a coffee that's both bold and smooth. Experience the passion and heritage of our coffee in every sip.",
+                "sizes": [
+                  { "id":"medium",
+                    "size": "M",
+                    "price": "$9.99",
+                    "discount":"$12.05"
+                  },
+                  { "id":"large",
+                    "size": "L",
+                    "price": "$19.99"
+                  },
+                  { "id":"superLarge",
+                    "size": "XL",
+                    "price": "$29.99"
+                  }
+                ],
+                "imgSrc": "img/espresso_italiana-removebg-preview.png"
+              }
+            ]
+        },
+        
+        "news":{
+          "title": "news",
+          "newsItem": [
+            {
+              "id": "1",
+            "title": "Lavazza Coffee",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+             "imgSrc":"img/news.p1.png"
+          },
+            {
+              "id":"2",
+            "title": "Lavazza Coffee",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+             "imgSrc":"img/news.p2.png"
+          },
+            {
+              "id":"3",
+            "title": "Lavazza Coffee",
+            "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+             "imgSrc":"img/news.p3.png"
+          }
+          ]
+        },
+        "otherProducts":{
+          "title":"Other Products"
+        }
+          
+        
+        
+      }
+      
+    }
+    
+
+    
+  
