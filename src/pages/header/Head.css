@@ -1,12 +1,10 @@
 .header{
-    border-bottom: 1px solid #32323D;
     position: fixed;
     top:0;
     width: 100%;
 }
 
 .header_line{
-    border-bottom: 1px solid #32323D; 
     height: 4vh;
     font-size: 0.7rem;
     display: flex;
@@ -52,8 +50,59 @@ img.nav_logo {
 .header_part_container{
     width: 45%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .header_actions{
-    font-size: 2rem;
+    margin-right: 1rem;
 }
+
+
+/* mobile devices go here */
+@media (max-width: 768px) {
+    nav.header_part_container{
+        display: none;
+    }
+*{ 
+    box-sizing: border-box;
+
+}
+
+ul.header_lng {
+  width: fit-content;
+}
+
+.header_lng li{
+    margin-right: 1rem;
+}
+
+.container{
+width: 90%;
+}
+
+.header_actions svg{
+width: 4rem;
+}
+   
+   h1{
+    font-size: 1rem;
+   }
+
+   img.nav_logo{
+    margin-left: 2rem;
+   }
+   .header_line{
+    margin: 0;
+    height: 1.5rem;
+}
+.head_wrapper{
+    height: 3.5rem;
+} 
+
+  }
+  
+  /* Tablet Devices (769px to 1024px wide) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+   
+  }

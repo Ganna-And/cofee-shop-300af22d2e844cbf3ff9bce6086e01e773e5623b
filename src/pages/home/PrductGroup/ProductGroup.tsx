@@ -1,6 +1,8 @@
-import React from 'react';
+import React,{useState} from 'react';
 import ProductItem from './ProductItem';
 import { Link } from 'react-router-dom';
+import { CoffeeProduct } from '../../../types';
+
 
 
 type ProductGroupProps = {
@@ -8,11 +10,8 @@ type ProductGroupProps = {
 };
 
 const ProductGroup:React.FC<ProductGroupProps> = ({data}) => {
-    
-const  onProductChange =()=>{
-    //please fil up fucntion accordingly
-}
-
+ 
+  
     return <div className='product_group' id='menu'>
         <h1>{data.title}</h1>
         <div className="product_list">

@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
-import languageReducer from '../features/language/languageSlice';
+import LanguageReducer from '../features/language/languageSlice';
+import CartReducer from '../features/language/cartSlice'
 
 const store = configureStore({
   reducer: {
-    language: languageReducer,
+    language: LanguageReducer,
+    cart: CartReducer
   },
 });
 

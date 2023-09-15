@@ -1,5 +1,5 @@
-*{
- 
+h1,h2,h3,h4,h5,p{
+ margin: 0;
 }
 
 
@@ -11,7 +11,6 @@ body {
   box-sizing: border-box;
   display: block;
   width: 100%;
-  min-height: 100vh;
   color: #FFFFFF;
   font-size: 14px;
     
@@ -20,8 +19,12 @@ body {
 header{
   border-bottom: 1px solid #32323D;
   z-index: 20;
- backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 
+}
+main{
+  margin-top: 8rem;
+  min-height: 70vh;
 }
 
 .container{
@@ -43,4 +46,27 @@ a:hover{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.btn_intro{
+  width: 12.5rem;
+  height: 3.1rem;
+  border-radius: 10px;
+  border: 1px solid #666681;
+  background-color: transparent;
+  margin-right: 3rem;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 5px #C7A17A;
+  
+}
+@media (max-width: 768px) {
+*{
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+  .container{
+    margin:0;
+    width: 100%;
+  }
 }

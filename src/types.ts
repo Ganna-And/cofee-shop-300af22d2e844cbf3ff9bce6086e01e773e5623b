@@ -48,6 +48,7 @@ export type CoffeeSize = {
     description: string;
     sizes: CoffeeSize[]; // Array of different sizes and prices
     imgSrc: string;
+    addedToCart:boolean;
   };
   
   export type CoffeeProductData = {
@@ -63,4 +64,14 @@ export type CoffeeSize = {
     title: string;
     description: string,
     imgSrc: string
+  }
+
+  export type AuthPageContent = {
+  welcomeMessage: string;
+  welcomeDescription: string;
+  promoMessage: string;
+  startNowButton: string;
+  celebrateTitle: string;
+  familyTitle: string;
+  familyDescription: string;
   }

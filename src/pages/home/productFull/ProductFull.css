@@ -64,3 +64,20 @@
 h1{
     margin: 2rem;
 }
+
+@media(max-width: 768px){
+    .full_product_description{
+        padding:0;
+        font-size: 0.5rem;
+        
+    }
+
+    .full_product_description h3{
+        font-size: 0.8rem;
+        padding-left: 1rem ;
+    }
+
+    ul.product_list{
+        padding: 0;
+    }
+}

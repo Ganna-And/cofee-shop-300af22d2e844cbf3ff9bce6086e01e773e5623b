@@ -10,7 +10,7 @@ const Footer:React.FC<FooterProps> = () => {
     
     return (
     <footer id='contacts'>
-        <img src={LogoText} alt="footer logo" />
+        <img src={LogoText} alt="footer logo" className='footer_logo' />
      <div className="contact-info">
     <h3>Contact Us</h3>
     <p>

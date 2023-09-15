@@ -2,23 +2,58 @@ import React, { useState } from "react";
 import "./ProductFull.css";
 import { CoffeeProduct } from "../../../types";
 import ProductItem from "../PrductGroup/ProductItem";
+import { Link } from "react-router-dom";
+import { Button } from "react-scroll";
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart, selectCartItems } from "../../../features/language/cartSlice";
 type ProductFullProps = {
   product: CoffeeProduct;
   otherProducts: any;
   randomProducts: any;
+ 
 };
+
+interface CartItem extends CoffeeProduct {
+  price: number;
+  selectedSize: string;
+}
 
 const ProductFull: React.FC<ProductFullProps> = ({ product, otherProducts, randomProducts }) => {
 
-  const [price, setPrice] = useState(product.sizes[0].price);
-  const [currentProduct, setCurrentProduct] = useState()
+  const [price, setPrice] = useState(0);
+  const [selectedSize, setSelectedSize] = useState<string>("M");
 
-const handlePriceSize = (size:string)=>{
-size === 'L' ? setPrice(product.sizes[1].price) :
-size === 'XL' ? setPrice(product.sizes[2].price):
-setPrice(product.sizes[0].price)
-}
+
+  const dispatch = useDispatch();
+  const addedProducts = useSelector(selectCartItems)
+
+
+  const addProductToCart = () => {
+    const cartItem: CartItem = {
+      ...product,
+      price, 
+      selectedSize 
+    };
+
+    dispatch(addToCart(cartItem))
+  };
  
+
+
+  const handlePriceSize = (size: string) => {
+    setSelectedSize(size);
+    if (size === 'L') {
+      setPrice(19.99);
+    } else if (size === 'XL') {
+      setPrice(29.99);
+    } else {
+      setPrice(9.99);
+    }
+  };
+
+  console.log(selectedSize)
+
+console.log(addedProducts)
   return (
     <div className="container" style={{ marginTop: "10rem" }}>
       <h1>{product.title}</h1>
@@ -47,7 +82,7 @@ setPrice(product.sizes[0].price)
               ))}
             </ul>
           </div>
-          <button className="btn_intro" style={{height:'2.1rem'}}>{product.btn_txt}</button>
+          <button className="btn_intro" style={{height:'2.1rem'}}  onClick={addProductToCart}>{product.btn_txt}</button>
         </div>
       </div>
       <div className="full_product_description">
@@ -55,7 +90,7 @@ setPrice(product.sizes[0].price)
     <div>
         <h1>{otherProducts.title}</h1>
         <ul className="product_list">{randomProducts.map((product:any)=>(
-            <li key={product.id} ><ProductItem item={product}/></li>
+           <Link to={`/${product.id}`}><li key={product.id} ><ProductItem item={product} /></li></Link> 
         ))}</ul>
     </div>
     </div>

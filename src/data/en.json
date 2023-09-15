@@ -33,6 +33,7 @@
             [
               {
                 "id": 1,
+                "addedToCart": false,
                 "title": "Classic Roast",
                 "btn_txt":"add to cart",
                 "description": "Enjoy the rich aroma and bold flavor of our Classic Roast coffee. Crafted from the finest coffee beans, this exquisite blend will awaken your senses with every sip. Whether you prefer it black or with a splash of cream, our coffee is a delightful start to your day.",
@@ -55,6 +56,7 @@
               },
               {
                 "id": 2,
+                "addedToCart": false,
                 "title": "Caramel Delight",
                 "btn_txt":"add to cart",
                 "description": "Savor the indulgence of our Caramel Delight coffee, a true coffee connoisseur's choice. With its velvety texture and notes of caramel and nuts, this blend offers a harmonious balance of taste and aroma. Elevate your mornings with a cup of this liquid luxury.",
@@ -77,6 +79,7 @@
               },
               {
                 "id": 3,
+                "addedToCart": false,
                 "title": "Espresso Supreme",
                 "btn_txt":"add to cart",
                 "description": "Dive into the world of our Espresso Supreme coffee, where every cup tells a story of passion and craftsmanship. Our premium beans are roasted to perfection, delivering a smooth, full-bodied experience. Allow the rich, earthy tones to transport you to a cozy café on a rainy day.",
@@ -99,6 +102,7 @@
               },
               {
                 "id": 4,
+                "addedToCart": false,
                 "title": "Nutty Bliss",
                 "btn_txt":"add to cart",
                 "description": "Immerse yourself in the essence of our Nutty Bliss coffee, where each sip is a journey of discovery. This exceptional blend combines the warmth of toasted almonds with a hint of dark chocolate, creating a coffee that's as comforting as a hug from an old friend.",
@@ -120,6 +124,7 @@
               },
               {
                 "id": 5,
+                "addedToCart": false,
                 "title": "French Vanilla Dream",
                 "btn_txt":"add to cart",
                 "description": "Discover the magic of our French Vanilla Dream coffee, a taste that lingers on your palate like a sweet memory. With its irresistible aroma and velvety mouthfeel, this blend is a symphony of flavors. And for a limited time, enjoy our special discount as a token of our appreciation for your love of coffee.",
@@ -142,6 +147,7 @@
               },
               {
                 "id": 6,
+                "addedToCart": false,
                 "title": "Dark Roast",
                 "btn_txt":"add to cart",
                 "description": "Embark on a coffee adventure with our Dark Roast coffee, where every cup is an invitation to explore new horizons. Our carefully selected beans are roasted to perfection, producing a coffee that's both bold and smooth. Experience the passion and heritage of our coffee in every sip.",
@@ -190,6 +196,16 @@
         },
         "otherProducts":{
           "title":"Other Products"
+        },
+
+        "authPage":{
+          "welcomeMessage": "This is where your coffee journey begins.",
+          "welcomeDescription":"World of exceptional flavors and rich traditions. Sign in now to explore handcrafted blends and indulge yourself with a sip of heaven.",
+          "promoMessage": "See promo on our home page and celebrate with us",
+          "startNowButton": "Start Now",
+          "celebrateTitle": "40 years",
+          "familyTitle": "We are family",
+          "familyDescription": "Warming the hearts and minds of all who cross our path with open arms and kindred spirits."
         }
           
         
