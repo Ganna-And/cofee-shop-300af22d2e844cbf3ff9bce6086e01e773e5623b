@@ -14,7 +14,7 @@
     color: white;
     padding: 5px;
     width: 100%;
-    width: 10%;
+    width: fit-content;
     height: 30%;
   }
   
@@ -42,7 +42,9 @@
 .cart_items_wrapper{
     width: 45%;
 }
-
+.icon_cart_remove{
+    color: #C7A17A;
+}
 .cart_right{
     width: 40%;
     padding: 3rem;
@@ -84,3 +86,19 @@ div.cart_right h3{
         padding: 1rem;
     }
 }
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .container_cart{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .cart_items_wrapper {
+        width: 100%;
+    }
+
+    .cart_right{
+      width: 87%;
+    }
+}
+
